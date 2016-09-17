@@ -37,7 +37,6 @@ if __name__ == '__main__':
         if prime is True:
             if possible_prime < 2000000:
                 arr_of_primes.append(possible_prime)
-                print(possible_prime)
             else:
                 print(sum(arr_of_primes))
                 break
